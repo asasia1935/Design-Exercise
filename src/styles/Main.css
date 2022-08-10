@@ -1,0 +1,103 @@
+.EntireDiv {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#MainImg {
+    position: relative;
+    left: 40%;
+    top: 15%;
+}
+
+.balloonsDiv {
+    position: relative;
+    left: 50%;
+}
+
+.buttonsDiv {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.buttonDiv {
+    display: block;
+}
+
+.button {
+    width: 300px;
+    height: 100px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    margin: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.button:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+
+@media (max-width: 2559px) {
+    .EntireDiv {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #MainImg {
+        position: relative;
+        left: 34%;
+        top: 20%;
+    }
+    
+    .balloonsDiv {
+        position: relative;
+        left: 50%;
+    }
+    
+    .buttonsDiv {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    
+    .buttonDiv {
+        display: block;
+    }
+    
+    .button {
+        width: 300px;
+        height: 100px;
+        padding: 10px 25px;
+        border: 2px solid #000;
+        margin: 40px;
+        font-size: 2rem;
+        font-weight: 700;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
+    }
+    
+    .button:hover {
+        box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+    }
+}

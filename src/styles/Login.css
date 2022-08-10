@@ -1,0 +1,71 @@
+.entireDiv {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.innerDiv {
+    position: relative;
+    top: 15%;
+}
+
+#TitleImg {
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+
+#ment {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.loginFormDiv {
+    width: 360px;
+    background-color: #EEEFF1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    border: none;
+    position: relative;
+    top: 20px;
+}
+
+.idField {
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.pwdLabel {
+    position: relative;
+    left: -8px;
+}
+
+.pwdField {
+    position: relative;
+    left: -8px;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.submitButton{
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    background-color: rgba(177, 231, 222, 1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
